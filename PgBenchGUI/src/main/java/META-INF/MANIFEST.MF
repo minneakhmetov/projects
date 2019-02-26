@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Class-Path: spring-context-4.3.20.RELEASE.jar jsr305-3.0.2.jar javafx-
+ controls-11-win.jar javafx-media-11-win.jar spring-aop-3.0.6.RELEASE.
+ jar aopalliance-1.0.jar javafx-graphics-11-win.jar spring-security-cr
+ ypto-3.1.0.RELEASE.jar spring-asm-3.0.6.RELEASE.jar guava-27.0-jre.ja
+ r javafx-fxml-11.jar spring-jdbc-4.3.20.RELEASE.jar postgresql-42.2.4
+ .jar error_prone_annotations-2.2.0.jar jstl-1.2.jar javafx-controls-1
+ 1.jar j2objc-annotations-1.1.jar checker-qual-2.5.2.jar spring-securi
+ ty-core-3.1.0.RELEASE.jar spring-tx-4.3.20.RELEASE.jar javafx-base-11
+ -win.jar failureaccess-1.0.jar javafx-graphics-11-mac.jar javafx-base
+ -11.jar javafx-graphics-11-linux.jar javafx-graphics-11.jar spring-co
+ re-4.3.20.RELEASE.jar animal-sniffer-annotations-1.17.jar javafx-medi
+ a-11-mac.jar javafx-media-11-linux.jar commons-logging-1.2.jar javafx
+ -fxml-11-win.jar spring-expression-3.0.6.RELEASE.jar listenablefuture
+ -9999.0-empty-to-avoid-conflict-with-guava.jar spring-beans-3.0.6.REL
+ EASE.jar
+Main-Class: FXAppLauncher
+
