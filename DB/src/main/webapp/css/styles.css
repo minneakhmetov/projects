@@ -1,0 +1,31 @@
+/*
+ * Developed by Razil Minneakhmetov on 12/26/18 10:38 PM.
+ * Last modified 12/26/18 10:38 PM.
+ * Copyright © 2018. All rights reserved.
+ */
+body {
+    background: #f7f7f7 !important;
+}
+body .btn-outline-secondary-1 {
+    color: #343a40;
+    border-color: #343a40;
+    background-color: transparent;
+    lighting-color: lightgrey;
+}
+
+body .btn-outline-secondary-1:hover {
+    color: white;
+    border-color: #343a40;
+    background-color: #343a40;
+    lighting-color: lightgrey;
+
+}
+
+body .btn-outline-secondary-1:focus {
+    color: white;
+    border-color: #343a40;
+    background-color: #343a40;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(100, 100, 100, 0.25);
+    lighting-color: lightgrey;
+}
