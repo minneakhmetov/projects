@@ -1,0 +1,482 @@
+.container{max-width:1170px; margin:auto;}
+img{ max-width:100%;}
+.inbox_people {
+    background: #f8f8f8 none repeat scroll 0 0;
+    float: left;
+    overflow: hidden;
+    width: 40%; border-right:1px solid #c4c4c4;
+}
+
+#over
+{
+    position:absolute;
+    width:100%;
+    height:100%;
+    text-align: center; /*handles the horizontal centering*/
+}
+/*handles the vertical centering*/
+.Centerer
+{
+    /*display: inline-block;*/
+    height: 100%;
+    vertical-align: middle;
+
+    display: flex;
+    /*height: 300px; !* Or whatever *!*/
+    background-color: #000;
+}
+.Centered
+{
+    /*display: inline-block;*/
+    /*vertical-align: middle;*/
+    /*margin: auto;*/
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50%;
+    vertical-align: middle !important;
+    text-align: center;
+
+    /*text-align: center !important; */
+    height: 10vh;
+
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -moz-animation-name: Centered;
+    -moz-animation-duration: 2s;
+    -webkit-animation-name: Centered;
+    -webkit-animation-duration: 2s;
+
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+    -moz-animation-delay: 0;
+    -moz-animation-play-state: running;
+    -moz-animation-fill-mode: forwards;
+
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-delay: 0;
+    -webkit-animation-play-state: running;
+    -webkit-animation-fill-mode: forwards;
+
+    /*width: 10vh;*/
+    /*position: absolute;*/
+}
+
+@-webkit-keyframes Centered {
+    0% {
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+@-moz-keyframes Centered {
+    0% {
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+
+.Centered-2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35%;
+    vertical-align: middle !important;
+    text-align: center;
+
+    /*text-align: center !important; */
+    height: 10vh;
+
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -moz-animation-name: Centered-2;
+    -moz-animation-duration: 2s;
+    -webkit-animation-name: Centered-2;
+    -webkit-animation-duration: 2s;
+
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+    -moz-animation-delay: 0;
+    -moz-animation-play-state: running;
+    -moz-animation-fill-mode: forwards;
+
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-delay: 0;
+    -webkit-animation-play-state: running;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.Centered-3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35%;
+    vertical-align: middle !important;
+    text-align: center;
+
+    /*text-align: center !important; */
+    height: 10vh;
+}
+
+@-webkit-keyframes Centered-2 {
+    0% {
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+@-moz-keyframes Centered-2 {
+    0% {
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+
+.inbox_msg {
+    border: 1px solid #c4c4c4;
+    clear: both;
+    overflow: hidden;
+}
+.top_spac{ margin: 20px 0 0;}
+
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.center-img {
+    display:block !important;
+    visibility: visible;
+    text-align: center;
+}
+
+
+.login-form{
+    padding: 5%;
+}
+
+
+.img-icon{
+    width: 20px;
+}
+
+.recent_heading {float: left; width:40%;}
+.srch_bar {
+    display: inline-block;
+    text-align: right;
+    width: 60%;
+}
+.headind_srch{ padding:10px 29px 10px 20px; overflow:hidden; border-bottom:1px solid #c4c4c4;}
+
+.recent_heading h4 {
+    /*color: #05728f;*/
+    color: #00cd00;
+    font-size: 21px;
+    margin: auto;
+}
+.srch_bar input{ border:1px solid #cdcdcd; border-width:0 0 1px 0; width:80%; padding:2px 0 4px 6px; background:none;}
+.srch_bar .input-group-addon button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    padding: 0;
+    color: #707070;
+    font-size: 18px;
+}
+.srch_bar .input-group-addon { margin: 0 0 0 -27px;}
+
+.chat_ib h5{ font-size:15px; color:#464646; margin:0 0 8px 0;}
+.chat_ib h5 span{ font-size:13px; float:right;}
+.chat_ib p{ font-size:14px; color:#989898; margin:auto}
+.chat_img {
+    float: left;
+    width: 11%;
+}
+.chat_img_filter {
+    float: right;
+    width: 7%;
+}
+.chat_ib {
+    float: left;
+    padding: 0 0 0 15px;
+    width: 88%;
+}
+.chat_ib_1 {
+    float: left;
+    padding: 7px 0 0 15px;
+    width: 88%;
+}
+
+.chat_people{ overflow:hidden; clear:both;}
+.chat_list {
+    border-bottom: 1px solid #c4c4c4;
+    margin: 0;
+    padding: 18px 16px 10px;
+    cursor: pointer;
+}
+.inbox_chat { height: 550px; overflow-y: scroll;}
+
+.active_chat{ background:#ebebeb;}
+
+.incoming_msg_img {
+    display: inline-block;
+    width: 6%;
+}
+.received_msg {
+    display: inline-block;
+    padding: 0 0 5px 10px;
+    vertical-align: top;
+    width: 92%;
+}
+.received_withd_msg p {
+    background: #ebebeb none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #646464;
+    font-size: 14px;
+    margin: 0;
+    padding: 5px 10px 5px 12px;
+    width: 100%;
+}
+.time_date {
+    /*color: #747474;*/
+    color: #4c4c4c;
+    display: block;
+    font-size: 12px;
+    margin: 8px 0 0;
+    -webkit-filter: drop-shadow(0px 0px 0px transparent) !important;
+    filter: drop-shadow(0px 0px 0px transparent) !important;
+}
+.received_withd_msg { width: 57%;}
+.mesgs {
+    float: left;
+    padding: 30px 15px 0 25px;
+    width: 60%;
+}
+
+.sent_msg p {
+
+    /*background: #05728f none repeat scroll 0 0;*/
+    background: #00cd00 none repeat scroll 0 0;
+    border-radius: 3px;
+    font-size: 14px;
+    margin: 0; color:#fff;
+    padding: 5px 10px 5px 12px;
+    width:100%;
+}
+.outgoing_msg{ overflow:hidden; margin:26px 0 26px;}
+.sent_msg {
+    float: right;
+    width: 46%;
+    margin-right: 10px;
+}
+.input_msg_write input {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #4c4c4c;
+    font-size: 15px;
+    min-height: 48px;
+    width: 100%;
+}
+.input_msg_write:focus {
+    lighting-color: transparent !important;
+    border-color: transparent !important;
+    color: transparent !important;
+
+    box-shadow: 0 0 0 .2rem rgba(100, 100, 100, 0.0)
+}
+
+.type_msg {border-top: 1px solid #c4c4c4;position: relative;}
+.msg_send_btn {
+    /*background: #05728f none repeat scroll 0 0;*/
+    background: #00cd00 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    height: 33px;
+    position: absolute;
+    right: 0;
+    top: 11px;
+    width: 33px;
+}
+.messaging { padding: 0 0 50px 0;}
+.msg_history {
+    height: 516px;
+    overflow-y: auto;
+}
+
+h1 {
+    outline-color: black;
+    text-shadow: #343a40 0 0 15px;
+}
+
+body {
+    /*background: #f7f7f7 !important;*/
+}
+
+body .btn-outline-secondary {
+    border-color: lightgrey;
+    color: lightgrey
+}
+
+body .btn-outline-secondary:hover {
+    border-color: lightgrey;
+    color: lightgrey
+}
+
+body .btn-outline-secondary-1 {
+    border-color: lightgrey;
+    color: white;
+    /*background-color: #e4015a;*/
+    background-color: #00cd00;
+
+}
+
+body .btn-outline-secondary-1:hover {
+    /*border-color: #e4015a;*/
+    border-color: #00cd00;
+    /*color: #e4015a;*/
+    color: #00cd00;
+    background-color: transparent;
+}
+
+body .btn-outline-secondary-1:focus {
+    /*border-color: #e4015a;*/
+    border-color: #00cd00;
+
+    /*color: #e4015a;*/
+    color: #00cd00;
+    background-color: transparent;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(100, 100, 100, 0.25)
+}
+
+body .btn-outline-secondary-2 {
+    border-color: lightgrey;
+    color: white;
+    /*background-color: #e4015a;*/
+    background-color: #4a76a8;
+
+}
+
+body .btn-outline-secondary-2:hover {
+    /*border-color: #e4015a;*/
+    border-color: #4a76a8;
+    /*color: #e4015a;*/
+    color: #4a76a8;
+    background-color: transparent;
+}
+
+body .btn-outline-secondary-2:focus {
+    /*border-color: #e4015a;*/
+    border-color: #4a76a8;
+
+    /*color: #e4015a;*/
+    color: #4a76a8;
+    background-color: transparent;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(100, 100, 100, 0.25)
+}
+
+body .mr-sm-2 {
+    border-color: lightgrey;
+    background-color: #343a40;
+    placeholder-color: white;
+    lighting-color: lightgrey;
+}
+
+body .mr-sm-2::placeholder {
+    color: lightgrey;
+
+}
+
+body .mr-sm-2:focus::placeholder {
+    color: #343a40;
+    lighting-color: lightgrey;
+
+}
+
+body .mr-sm-2:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: lightgrey;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(211, 211, 211, .25)
+}
+
+body .shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .3) !important
+}
+
+body .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 120px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 200px;
+    color: #fff;
+    text-align: center;
+}
+
+body .myForm:focus {
+    border-color: lightgrey;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(100, 100, 100, .25)
+}
+
+.shadowed {
+    -webkit-filter: drop-shadow(5px 5px 5px #959595);
+    filter: drop-shadow(5px 5px 5px #959595);
+}
+.gradient {
+    background-color: #7ac44d;
+    /* IE9, iOS 3.2+ */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyYWRpYWxHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGN4PSIwJSIgY3k9IjEwMCUiIHI9IjE0MS40MjEzNTYyMzczMDk1JSI+PHN0b3Agc3RvcC1jb2xvcj0iI2YzZWYxNSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjAiLz48c3RvcCBzdG9wLWNvbG9yPSIjMDA5ODg1IiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMSIvPjwvcmFkaWFsR3JhZGllbnQ+PHJlY3QgeD0iLTUwIiB5PSItNTAiIHdpZHRoPSIxMDEiIGhlaWdodD0iMTAxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==);
+    /* Android 2.3- hack (needed for the actual radial gradient) */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyYWRpYWxHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGN4PSIwJSIgY3k9IjEwMCUiIHI9IjE0MS40MjEzNTYyMzczMDk1JSI+PHN0b3Agc3RvcC1jb2xvcj0iI2YzZWYxNSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjAiLz48c3RvcCBzdG9wLWNvbG9yPSIjMDA5ODg1IiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMSIvPjwvcmFkaWFsR3JhZGllbnQ+PHJlY3QgeD0iLTUwIiB5PSItNTAiIHdpZHRoPSIxMDEiIGhlaWdodD0iMTAxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==),
+    -webkit-gradient(radial, left bottom, 0, left bottom, 690,color-stop(0, #f3ef15),color-stop(1, #009885));
+    /* Android 2.3 */
+    background-image: -webkit-repeating-radial-gradient(left bottom, ellipse farthest-corner,#f3ef15 0%,#009885 100%);
+    /* IE10+ */
+    background-image: repeating-radial-gradient(ellipse farthest-corner at left bottom,#f3ef15 0%,#009885 100%);
+    background-image: -ms-repeating-radial-gradient(left bottom, ellipse farthest-corner,#f3ef15 0%,#009885 100%);
+}
+
+/* IE8- CSS hack */
+@media \0screen\,screen\9 {
+    .gradient {
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fff3ef15",endColorstr="#ff009885",GradientType=0);
+    }
+}

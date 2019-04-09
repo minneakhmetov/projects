@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="spinach_java@147.78.64.103" uuid="d2b08a12-0ff5-4ffb-8bf8-a421cb98cf39">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://147.78.64.103:5432/spinach_java</jdbc-url>
+    </data-source>
+  </component>
+</project>
